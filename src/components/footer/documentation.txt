@@ -1,0 +1,28 @@
+FOOTER COMPONENT:
+
+Theme:
+    light
+    dark
+
+Alignment:
+    left
+    center
+    right
+    justify
+
+Columns:
+    Column_1:
+        Title
+        Array (items)
+    Column_2:
+        Title
+        Array (items):
+            {item: 'string', link: './path'}
+    ...
+    Column_6
+
+
+
+Copyright:
+    some text
+

@@ -1,0 +1,22 @@
+BUTTON COMPONENT
+
+type:
+    'hollow'
+    'solid'
+
+edge:
+    'sharp'
+    'semi'
+    'round'
+
+size:
+    'small'
+    'medium'
+    'large'
+
+link:
+    'some path'
+
+color:
+    'black'
+

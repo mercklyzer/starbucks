@@ -1,0 +1,12 @@
+BILLBOARD COMPONENT:
+
+breakpoint default is TABLET
+
+arrangement:
+    'image'
+    'text'
+
+image:
+    './...'
+
+children:

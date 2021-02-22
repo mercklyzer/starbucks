@@ -1,0 +1,13 @@
+ACCORDION COMPONENT
+
+WINDOWS:
+    [
+        {HEADER: , CONTENT: },
+        {HEADER: , CONTENT: },
+        ...
+    ]
+
+COLOR:
+    green
+
+    

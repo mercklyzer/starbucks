@@ -1,0 +1,85 @@
+.btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+/* TYPE AND COLOR*/
+/* HOLLOW BLACK */
+.btn-hollow.btn-black{
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.btn-hollow.btn-black:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+/* SOLID BLACK */
+.btn-solid.btn-black{
+    color: white !important;
+    background-color: black;
+}
+
+.btn-solid.btn-black:hover{
+    opacity: 0.6;
+}
+
+/* HOLLOW WHITE */
+
+.btn-hollow.btn-white{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.btn-hollow.btn-white:hover{
+    background-color: rgba(255,255,255,0.05);
+}
+
+
+/* SOLID WHITE */
+.btn-solid.btn-white{
+    color: black !important;
+    background-color: white;
+}
+
+.btn-solid.btn-black:hover{
+    opacity: 0.6;
+}
+
+
+/* EDGE */
+.btn-semi{
+    border-radius: 10px;
+}
+
+.btn-round{
+    border-radius: 20px;
+}
+
+/* SIZE */
+.btn-small{
+    padding: 6px 15px;
+    font-size:14px;
+    font-weight: 400;
+}
+
+.btn-medium{
+    padding: 8px 20px;
+    font-size:18px;
+    font-weight: 500;
+    border-width: 3px;
+}
+
+.btn-large{
+    padding: 12px 28px;
+    font-size:20px;
+    font-weight:700;
+    border-width: 4px;
+}
+

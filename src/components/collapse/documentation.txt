@@ -1,0 +1,19 @@
+COLLAPSE COMPONENT
+
+Align:
+    left
+    right
+    center
+    justify
+
+MaxWidth:
+    some px
+
+Theme:
+    light
+    dark
+
+Color:
+    dark-green
+
+Children

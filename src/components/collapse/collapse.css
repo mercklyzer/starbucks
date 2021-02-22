@@ -1,0 +1,68 @@
+.collapse-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.collapse-header-container{
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid gray;
+    transition: all 0.3s;
+}
+
+
+.collapse-header{
+    display: flex;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+
+.collapse-header-button{
+    position: absolute;
+    right: 1%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: all 0.3s ease;
+}
+
+.collapse-header-button.show{
+    transform: rotate(-180deg)
+}
+
+.collapse-content-container{
+    display: flex;
+    transition: all 0.3s ease;
+    max-height: 0;
+    opacity: 0;
+}
+
+/* JUST ADJUST MAX-HEIGHT THAT WILL FIT YOUR CONTAINER */
+.collapse-content-container.show{
+    max-height: 300px;
+    opacity: 1;
+}
+
+.collapse-content{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* GREEN */
+.collapse-green .collapse-header-container.show{
+    border: 1px solid #006341;
+    background-color: #d4edda;
+}
+
+.collapse-green .collapse-header.show{
+    color: #006341;
+}

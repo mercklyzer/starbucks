@@ -1,0 +1,22 @@
+SIDEBAR COMPONENT:
+
+topMenu:
+    array
+centerMenu:
+    array
+bottom Menu:
+    array
+    
+sidebarOpen:
+    true
+    false
+
+navbarHeight:
+    some px
+
+theme:
+    light
+    dark
+
+color:
+    dark-green

@@ -1,0 +1,21 @@
+HAMBURGER COMPONENT:
+
+isOpen:
+    true
+    false
+
+openHandler:
+    function
+
+size:
+    small
+    medium
+
+style:
+    1
+    2
+    ...
+
+theme:
+    light
+    dark

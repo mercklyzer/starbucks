@@ -1,0 +1,32 @@
+.icon-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 26px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin: 16px 0px 0px 0px;
+}
+
+.icon-container:hover{
+    background-color: #e9e9e9;
+}
+
+.icon{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.icon svg{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+

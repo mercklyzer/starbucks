@@ -1,0 +1,129 @@
+.navbar{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 2px 1px grey;  
+    /* overflow: hidden; */
+}
+
+.left-menu, .center-menu, .right-menu{
+    height: 100%;
+    width: auto;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.items-container{
+    display: flex;
+    min-height: 100%;   
+    align-items: center;
+    justify-content: center ;
+}
+
+.brand{
+    width: auto;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.nav-item *{
+    text-decoration: none; 
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* LIGHT */
+
+.navbar.nav-light{
+    background-color: white;
+}
+
+.nav-light .nav-item * {
+    color: black;
+}
+
+.nav-light .nav-item path{
+    fill: black;
+}
+
+/* LIGHT AND DARK GREEN */
+
+.nav-light.nav-dark-green .nav-item a:hover path, 
+.nav-light.nav-dark-green .nav-item a:hover{
+    color: var(--dark-green);
+    fill: var(--dark-green);
+}
+
+.nav-light.nav-dark-green .nav-item a:hover path, 
+.nav-light.nav-dark-green .nav-item a:hover{
+    color: var(--dark-green);
+    fill: var(--dark-green);
+}
+
+/* DARK */
+
+.nav-dark .nav-item * {
+    color: white;
+    text-decoration: none; 
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}   
+
+.nav-dark .nav-item path{
+    fill: white;
+}
+
+/* DARK AND DARK GREEN */
+
+.nav-item.nav-dark-green{
+    color: var(--dark-green);
+}
+
+.navbar.nav-dark.nav-dark-green{
+    background-color: var(--dark-green);
+}
+
+.nav-dark.nav-dark-green .nav-item a:hover path, 
+.nav-dark.nav-dark-green .nav-item a:hover{
+    color: black;
+    fill: black;
+}
+
+
+/* BREAK POINTS */
+/* JUST ADJUST THE MAX-WIDTH TO FIT YOUR OWN NAVBAR */
+/* ALSO ADJUST HAMBURGER CSS */
+
+/* TABLET */
+
+@media screen and (max-width: 768px){
+    .navbar.nav-tablet{
+        padding: 10px 30px;
+    }
+    .navbar.nav-tablet .items-container{
+        display: none;
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 426px){
+    .navbar.nav-phone{
+        padding: 8px 26px;
+    }
+    .navbar.nav-phone .items-container{
+        display: none;
+    }
+}
+
