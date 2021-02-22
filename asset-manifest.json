@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/starbucks/static/css/main.37730423.chunk.css",
+    "main.js": "/starbucks/static/js/main.2c434bec.chunk.js",
+    "main.js.map": "/starbucks/static/js/main.2c434bec.chunk.js.map",
+    "runtime-main.js": "/starbucks/static/js/runtime-main.db7b8e26.js",
+    "runtime-main.js.map": "/starbucks/static/js/runtime-main.db7b8e26.js.map",
+    "static/js/2.a47dabc4.chunk.js": "/starbucks/static/js/2.a47dabc4.chunk.js",
+    "static/js/2.a47dabc4.chunk.js.map": "/starbucks/static/js/2.a47dabc4.chunk.js.map",
+    "static/js/3.40fb42e6.chunk.js": "/starbucks/static/js/3.40fb42e6.chunk.js",
+    "static/js/3.40fb42e6.chunk.js.map": "/starbucks/static/js/3.40fb42e6.chunk.js.map",
+    "index.html": "/starbucks/index.html",
+    "static/css/main.37730423.chunk.css.map": "/starbucks/static/css/main.37730423.chunk.css.map",
+    "static/js/2.a47dabc4.chunk.js.LICENSE.txt": "/starbucks/static/js/2.a47dabc4.chunk.js.LICENSE.txt",
+    "static/media/bread.4721043f.webp": "/starbucks/static/media/bread.4721043f.webp",
+    "static/media/downward-arrow-icon.02e6229a.svg": "/starbucks/static/media/downward-arrow-icon.02e6229a.svg",
+    "static/media/drinks.717312e4.png": "/starbucks/static/media/drinks.717312e4.png",
+    "static/media/facebook-logo.271098a9.svg": "/starbucks/static/media/facebook-logo.271098a9.svg",
+    "static/media/green-star.9fc7468b.webp": "/starbucks/static/media/green-star.9fc7468b.webp",
+    "static/media/instagram-logo.21a65c2a.svg": "/starbucks/static/media/instagram-logo.21a65c2a.svg",
+    "static/media/location-icon.872d4c61.svg": "/starbucks/static/media/location-icon.872d4c61.svg",
+    "static/media/paper-bag.f562b5fc.webp": "/starbucks/static/media/paper-bag.f562b5fc.webp",
+    "static/media/pinterest-logo.ce4fe32f.svg": "/starbucks/static/media/pinterest-logo.ce4fe32f.svg",
+    "static/media/spotify-logo.ed6af2af.svg": "/starbucks/static/media/spotify-logo.ed6af2af.svg",
+    "static/media/starbucks-logo.b54ddcf3.svg": "/starbucks/static/media/starbucks-logo.b54ddcf3.svg",
+    "static/media/twitter-logo.56224060.svg": "/starbucks/static/media/twitter-logo.56224060.svg",
+    "static/media/valentines-card.367f1a53.webp": "/starbucks/static/media/valentines-card.367f1a53.webp",
+    "static/media/waiter-model.c5dd752f.webp": "/starbucks/static/media/waiter-model.c5dd752f.webp",
+    "static/media/youtube-logo.f9c49218.svg": "/starbucks/static/media/youtube-logo.f9c49218.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7b8e26.js",
+    "static/js/2.a47dabc4.chunk.js",
+    "static/css/main.37730423.chunk.css",
+    "static/js/main.2c434bec.chunk.js"
+  ]
+}
